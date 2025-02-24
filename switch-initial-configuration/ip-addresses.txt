@@ -1,0 +1,14 @@
+Devices        Interface        IP Address                  Version              Netmask
+
+1. S1          VLAN 99          192.168.1.2                 ipv4                 255.255.255.0
+                                2001:db8:acad:1::2          ipv6                 /64
+                                fe80::2                     link-local
+                                
+2. PC-A        NIC              192.168.1.10                ipv4                 255.255.255.0
+                                2001:db8:acad:1::10         ipv6                 /64
+
+3. Router*     LAN NIC          192.168.1.1                 ipv4                 255.255.255.0
+                                fe80::1                     ipv6
+
+
+Note: *Addresses of the router are considered as default-gateway!
